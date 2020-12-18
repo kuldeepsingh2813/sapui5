@@ -1,0 +1,30 @@
+<html>
+	<head>
+		
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal"
+				data-sap-ui-resourceroots='{
+					"bunny": "./"
+				}'
+		></script>
+		<script>
+// 			definition of view
+			var oKarthik = new sap.ui.view("idMain",{
+				viewName: "bunny.view.Main",
+				type: "JS"
+			});
+			
+			// var oBtn = new sap.m.Button("idBrn",{
+			// 	text: "Maza Aavi ne"
+			// });
+			
+			oKarthik.placeAt("anubhav");
+			//oBtn.placeAt("oberoy");
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<div id="anubhav"></div>
+		<div id="oberoy"></div>
+	</body>
+</html>
